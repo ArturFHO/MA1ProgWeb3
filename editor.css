@@ -1,0 +1,86 @@
+html {
+    background-color: rgb(255, 115, 0);
+}
+.div1 {
+    background-color: #0033cc; 
+    margin: 0;
+    padding: 0;
+    width:100%; 
+}
+
+header h1 {
+    text-decoration: none;
+    float: left;
+    color: black;
+}
+header p {  
+   float: right;
+   letter-spacing: 4px;
+   font-family: "Sergoe UI";
+   font-size: 20px;
+}
+
+.img1 {
+    width: 100px; 
+    height: 90px;
+}
+
+.menu {
+    list-style-type:    none;
+    margin: 0;
+    padding: 0;
+    background-color: #0033cc;
+    float: left;
+    width:100%;
+}
+.menu a:hover {
+    background-color:#009900 ;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 25px;
+    color: black;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.menu li {
+    float: left;
+}
+
+.div2 {
+    margin: 0;
+    padding: 0;
+    width:100%; 
+    border: white;
+}
+.h1div {
+    color: black;
+    text-align: center;
+    height: 450%;
+    width: 85%;
+}
+
+img {
+    width: 160px;
+    height: 100px;
+}
+
+div {
+    display: inline-block;
+    margin-left: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d8d9d0;
+    text-align: center;
+}
+
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #0033cc;
+    float: left;
+}
