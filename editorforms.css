@@ -1,0 +1,53 @@
+div {
+    display: inline-block;
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    width: 100%;
+    background-color:beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+} 
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+input {
+    width: 30%;
+    height: 20px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+}
+
+a {
+    text-align: left;
+}
+
+.peixe {
+    display: inline-block;
+    border-width: 3px;
+    border-style: solid;
+    border-color: orangered;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(130, 180, 247, 0.637);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.planta {
+    display: inline-block;
+    border-width: 3px;
+    border-style: solid;
+    border-color: orangered;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(23, 141, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}

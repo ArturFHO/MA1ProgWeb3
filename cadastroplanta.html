@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="editorforms.css" type="text/css">
+
+</head>         
+<body>
+    <div class="planta">
+        <h1>Cadastro de Plantas</h1>
+        <form method="post" action="">
+            <label>Nome:</label><br>
+            <input type="text" id="nome" name="nome" required name="nome"><br><br>
+
+            <label >Nome Científico:</label><br>
+            <input type="text" id="nomecientifico" name="nomecientifico" required name="nomecientifico"><br><br>
+
+            <label>Cor Predominate:</label><br>
+            <input type="text" id="corpredominante" name="corpredominante" required name="corpredominante"><br><br> 
+
+            <label>Preço de Compra:</label><br>
+            <input type="number" id="preco" name="preco" required name="preco"><br><br> 
+            
+            <label>Classificação:</label>
+            <select>
+                <option value="">Classificação</option>
+                <option value="briofitas">Briófitas</option>
+                <option value="pteridofitas">Pteridófitas</option>
+                <option value="gimnospermas">Gimnospermas</option>
+                <option value="angiospermas">Angiospermas</option>
+
+            </select><br><br>
+
+            <label>Tamanho:</label><br>
+            <input type="number" id="tamanho" name="tamanho" required name="tamanho"><br><br>   
+ 
+            <input class="button" type="submit" onclick="testar()" value="Enviar"><br><br>
+        </form> 
+        <a href="escolhacadastro.html">Voltar</a><br><br>
+    </div>
+      
+</body>
+</html>
