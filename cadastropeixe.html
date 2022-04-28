@@ -3,12 +3,12 @@
 <head>
     <title>Cadastro</title>
     <link rel="stylesheet" href="editorforms.css" type="text/css">
-
+    <meta charset="utf-8">
 </head>         
 <body>
     <div class="peixe">
         <h1>Cadastro de Peixes</h1>
-        <form method="post" action="">
+        <form method="POST" action="mainpeixe.php">
             <label>Nome:</label><br>
             <input type="text" id="nome" name="nome" required name="nome"><br><br>
 
@@ -21,11 +21,11 @@
             <label>Preço de Compra:</label><br>
             <input type="number" id="preco" name="preco" required name="preco"><br><br> 
 
-            <select>
+            <select name="classificacao">
                 <option value="">Tipo de Água</option>
-                <option value="salgada">Salgada</option>
-                <option value="doce">Doce</option>
-                <option value="ambas">Ambas</option>
+                <option value="Salgada">Salgada</option>
+                <option value="Doce">Doce</option>
+                <option value="Ambas">Ambas</option>
 
             </select><br><br>
 

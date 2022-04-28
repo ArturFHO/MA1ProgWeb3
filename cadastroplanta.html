@@ -3,12 +3,12 @@
 <head>
     <title>Cadastro</title>
     <link rel="stylesheet" href="editorforms.css" type="text/css">
-
+    <meta charset="utf-8">
 </head>         
 <body>
     <div class="planta">
         <h1>Cadastro de Plantas</h1>
-        <form method="post" action="">
+        <form method="POST" action="mainplanta.php">
             <label>Nome:</label><br>
             <input type="text" id="nome" name="nome" required name="nome"><br><br>
 
@@ -22,17 +22,17 @@
             <input type="number" id="preco" name="preco" required name="preco"><br><br> 
             
             <label>Classificação:</label>
-            <select>
+            <select name="classificacao">
                 <option value="">Classificação</option>
-                <option value="briofitas">Briófitas</option>
-                <option value="pteridofitas">Pteridófitas</option>
-                <option value="gimnospermas">Gimnospermas</option>
-                <option value="angiospermas">Angiospermas</option>
+                <option value="Briófitas">Briófitas</option>
+                <option value="Pteridófitas">Pteridófitas</option>
+                <option value="Gimnospermas">Gimnospermas</option>
+                <option value="Angiospermas">Angiospermas</option>
 
             </select><br><br>
 
-            <label>Tamanho:</label><br>
-            <input type="number" id="tamanho" name="tamanho" required name="tamanho"><br><br>   
+            <label>Peso:</label><br>
+            <input type="number" id="tamanho" name="peso" required name="tamanho"><br><br>   
  
             <input class="button" type="submit" onclick="testar()" name="enviarplanta" value="Enviar"><br><br>
         </form> 
