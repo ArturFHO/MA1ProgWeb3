@@ -6,5 +6,7 @@
     public $nome_cientifico;
     public $cor;
     public $preco;
+
+    abstract public function imprimir();
   }
 ?>

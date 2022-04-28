@@ -1,20 +1,16 @@
 <?php
   
-  include("classes/peixe.php");
+  include("classes/VidaAgua.php");
+  include("classes/Peixe.php");
    
-    $peixe = new Peixe(); 
-    $peixe->nome = $_POST['nome'];
-    $peixe->nome_cientifico = $_POST['nomecientifico'];
-    $peixe->cor = $_POST['corpredominante'];  
-    $peixe->preco = $_POST['preco'];
-    $peixe->classificacao = $_POST['telefone'];
-    $peixe->tamanho = $_POST['peso'];
+  $nome = $_POST['nome'];
+  $nome_cientifico = $_POST['nomecientifico'];
+  $cor = $_POST['corpredominante'];
+  $preco = $_POST['preco'];
+  $classificacao = $_POST['classificacao'];
+  $peso = $_POST['peso'];
     
-    echo "******** PEIXE CADASTRADO COM SUCESSO ******** <br>";
-    echo("Nome: ".$peixe->nome)."<br>";
-    echo("Nome Científico: ".$peixe->nome_cientifico)."<br>";
-    echo("Cor: ".$peixe->cor)."<br>";
-    echo("Preço: " .$peixe->preco)."<br>";
-    echo("Classificação: ".$peixe->classificacao)."<br>";
-    echo("Tamanho: ".$peixe->tamanho);
+  $peixe = new Peixe($nome, $nome_cientifico, $cor, $preco, $classificacao, $peso); 
+      
+  $peixe->imprimir();
 ?>
