@@ -48,28 +48,16 @@ header p {
     float: left;
 }
 
-.h1div {
-    color: black;
-    height: 450%;
-    width: 85%;
-}
-
 img {
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
 }
 
-figcaption {
-    padding: 25px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-}
 .divprincipal {
     width: 100%;
-    background-color: aqua;
     margin-left: auto;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 .div2 {
     width:100%; 
@@ -113,8 +101,8 @@ footer{
     border-width: 3px;
     border-style: solid;
     border-color: black ;
-    margin-left: auto;
     margin-top: 5px;
+    margin-left: auto;
 }
 table,th,tr,td {
    
@@ -143,8 +131,49 @@ th {
     background-color: beige;
  }
 
- 
+ .divimg {
+     width: 48%;
+     height: auto;
+     float: right;
+     margin-right: auto;
+     margin-top: 20px;
+ }
 
+ .divimg2 {
+    width: 100%;
+    height: auto;
+ }
  
- 
+ .imgdiv {
+    width: 600px;
+    height: 300px;   
+    float: left;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+ }
 
+.divpoluicao {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 5px;
+
+}
+
+.imgpoluicao {
+    width: 500px;
+    height: 250px;
+    float: left;
+    border: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+p {
+    color: white;
+    font-size:larger;
+    
+    ;
+}
