@@ -115,13 +115,16 @@ footer{
     border-color: blue;
     margin-left: auto;
 }
-.table {
-    border: 2px;
-    border-color: black;
+table,th,tr {
+    border: 2px solid black;
     width: 100%;
+}
+
+table {
+    border-collapse: collapse;   
 }
 
 th {
     width: 200px;
-    
+    height: 30px;
 }
